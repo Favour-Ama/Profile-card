@@ -1,0 +1,36 @@
+body{
+    font-family: "inter", sans-serif;
+    background-color: rgb(245, 245, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.profile card{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    width: 300px;
+    text-align: center;
+}
+.name{
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.bio{
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.quote{
+    font-size: 14px;
+    color: #999999;
+    font-style: italic;
+    border-left: 3px solid #cccccc;
+    padding-left: 10px;
+    text-align: left;
+}
